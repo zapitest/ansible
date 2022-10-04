@@ -30,6 +30,6 @@
         repo: 'https://github.com/zapitest/ansible-files'
         dest: /root/ansible/files
         update: "yes"
-    -copy
+    -copy:
         src: "/root/ansible/files/file1
         dest: '/root/file1.copied'
