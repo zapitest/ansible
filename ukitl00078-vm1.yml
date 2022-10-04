@@ -25,12 +25,12 @@
       service:
         name: apache2
         state: started
-    - name: Git checkout files
+    - name: "Git get contents of files repo"
       ansible.builtin.git:
         repo: 'https://github.com/zapitest/ansible-files'
         dest: /root/ansible/files
         update: "yes"
-    - name: Copy file1 to destination
+    - name: "Copy file1 to destination"
       template:
         src: "/root/ansible/files/file1"
         dest: "/root/file1.copied"
