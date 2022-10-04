@@ -32,5 +32,5 @@
         update: "yes"
     - name: Copy file1 to destination
       template:
-        src: "/root/ansible/files/file1
-        dest: '/root/file1.copied'
+        src: "/root/ansible/files/file1"
+        dest: "/root/file1.copied"
