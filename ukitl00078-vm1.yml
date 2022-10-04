@@ -25,9 +25,9 @@
       service:
         name: apache2
         state: started
-   - name: Install more packages
+   - name: "Install additional packages"
      apt: name={{item}}
-        with_items:
-            - htop
-            - mc
-            - tmux
+     with_items:
+       - htop
+       - mc
+       - tmux
