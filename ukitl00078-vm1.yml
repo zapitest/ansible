@@ -21,7 +21,7 @@
         rule: allow
         port: "80"
         proto: tcp
-    - name: "Enable Apache on Firewall"
+    - name: "Enable SSH on Firewall"
       ufw:
         rule: allow
         port: "22"
