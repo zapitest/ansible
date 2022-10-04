@@ -19,7 +19,7 @@
     - name: "Enable Apache on Firewall"
       ufw:
         rule: allow
-        port: 80
+        port: "80"
         proto: tcp
     - name: "restart apache2 service"
       service:
