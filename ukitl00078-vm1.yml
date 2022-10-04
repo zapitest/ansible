@@ -27,7 +27,7 @@
         state: started
    - name: Git checkout files
       ansible.builtin.git:
-        repo: 'https://github.com/zapitest/files'
+        repo: 'https://github.com/zapitest/ansible-files'
         dest: /root/ansible/files
         update: "yes"
      
